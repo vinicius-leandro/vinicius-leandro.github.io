@@ -1,0 +1,86 @@
+body {
+    background-color: #b6c9bb;
+    padding: 3%;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p, ul li {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.mycontent {
+    position: relative;
+}
+
+.profile {
+    display: inline-block;
+    
+
+}
+
+.profilepicture {
+    border: 3px solid #f5f5f5;
+    border-radius: 100%;
+}
+
+.about {
+    display: inline-block;
+    max-width: 60%;
+    position: absolute;
+    top: 27%;
+    margin-left: 30px;
+}
+
+#perfil {
+    text-align: center;
+}
+
+.indice {
+    list-style-type: none;
+    padding: 0;
+}
+
+#github, .skills li:nth-of-type(2) {
+    list-style-image: url(./images/logos/github-logo-icon.png);
+}
+
+#linkedin {
+    list-style-image: url(./images/logos/linkedin-logo-icon.png);
+}
+
+.skills li:nth-of-type(1) {
+    list-style-image: url(./images/logos/git-logo-icon.png);
+}
+
+.skills li:nth-of-type(3) {
+    list-style-image: url(./images/logos/python-logo-icon.png);
+}
+
+.skills li:nth-of-type(4) {
+    list-style-image: url(./images/logos/html-logo-icon.png);
+}
+
+.skills li:nth-of-type(5) {
+    list-style-image: url(./images/logos/css-logo-icon.png);
+}
+
+.skills li:nth-of-type(6) {
+    list-style-image: url(./images/logos/ingles-logo-icon.png);
+}
