@@ -84,3 +84,8 @@ p, ul li {
 .skills li:nth-of-type(6) {
     list-style-image: url(./images/logos/ingles-logo-icon.png);
 }
+
+.rodape h3{
+    font-weight: 400;
+    text-align: center;
+}
