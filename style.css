@@ -1,9 +1,35 @@
 body {
     background-color: #b6c9bb;
-    padding: 3%;
+    margin: 0;
 }
 
-h1 {
+main{
+    max-width: 80%;
+    padding-left: 3%;
+}
+
+header {
+    padding-left: 3%;
+}
+
+.projects {
+    width: 15%;
+    height: 963px;
+    float: right;
+    margin-top: 12px;
+    margin-right: 15px;
+    border: 1px solid black;
+}
+
+.projects h3 {
+    text-align: center;
+}
+
+.projects li {
+    list-style: none;
+}
+
+h1, h2, h3 {
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
 }
@@ -31,8 +57,6 @@ p, ul li {
 
 .profile {
     display: inline-block;
-    
-
 }
 
 .profilepicture {
@@ -45,7 +69,7 @@ p, ul li {
     max-width: 60%;
     position: absolute;
     top: 27%;
-    margin-left: 30px;
+    left: 27%;
 }
 
 #perfil {
@@ -83,4 +107,15 @@ p, ul li {
 
 .skills li:nth-of-type(6) {
     list-style-image: url(./images/logos/ingles-logo-icon.png);
+}
+
+.footer {
+    clear: both;
+}
+
+.footer h3{
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
 }

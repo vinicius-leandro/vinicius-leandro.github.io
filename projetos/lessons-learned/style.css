@@ -1,0 +1,87 @@
+body { 
+    margin: 0;
+    padding-top: 110px;
+    background-color: rgb(253, 251, 251);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-size: 17px;
+    line-height: 21px;
+}
+
+main {
+    padding: 1% 1% 0 1%;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0px;
+    width: 100%;   
+}
+
+#cabecalho, #rodape {
+    background-color: #56A3A6;
+    color: white;
+}
+
+#cabecalho a {
+    color: white;
+}
+
+#cabecalho li {
+    list-style: none;
+    font-weight: 700;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#minha_foto {
+    width: 300px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+#rodape h3 {
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+#aprendizado {
+    position: relative;
+}
+
+.lado-esquerdo, .lado-direito  {
+    display: inline-block;
+    max-width: 49%;
+}
+
+.lado-esquerdo {
+    padding-right: 1px;
+}
+
+.lado-direito {
+    margin-left: 20px;
+    position: absolute;
+    top: 0px;
+}
+
+#nome {
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 125px;
+}
+
+#nome, #nome th, #nome td {
+    border: 1px solid black;
+}
