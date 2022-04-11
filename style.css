@@ -1,6 +1,11 @@
 body {
     background-color: #b6c9bb;
-    padding: 3%;
+    margin: 0;
+}
+
+main{
+    max-width: 90%;
+    margin: auto;
 }
 
 h1 {
@@ -45,7 +50,7 @@ p, ul li {
     max-width: 60%;
     position: absolute;
     top: 27%;
-    margin-left: 30px;
+    left: 25%;
 }
 
 #perfil {
@@ -85,7 +90,13 @@ p, ul li {
     list-style-image: url(./images/logos/ingles-logo-icon.png);
 }
 
+.rodape {
+    
+}
+
 .rodape h3{
     font-weight: 400;
     text-align: center;
+    padding: 20px;
+    margin: 0;
 }
