@@ -25,9 +25,6 @@ header {
     text-align: center;
 }
 
-.projects li {
-    list-style: none;
-}
 
 h1, h2, h3 {
     font-family: 'Barlow', sans-serif;
@@ -43,7 +40,7 @@ a:hover {
     text-decoration: underline;
 }
 
-p, ul li {
+p, ol li {
     font-family: 'Poppins', sans-serif;
 }
 
